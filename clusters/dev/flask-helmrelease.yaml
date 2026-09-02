@@ -17,7 +17,7 @@ spec:
   values:
     replicaCount: 1
     image:
-      repository: docker.io/charungooa/flask-microservice
+      repository: docker.io/topaz82/flask-microservices
       tag: "REPLACE_ME_SHA"   # {"$imagepolicy": "flux-system:flask-microservice:tag"}
     service:
       type: LoadBalancer
