@@ -21,6 +21,6 @@ spec:
       repository: docker.io/topaz82/flask-microservices
       tag: "latest"
     service:
-      type: LoadBalancer
+      type: NodePort
     autoscaling:
       enabled: false
